@@ -1,3 +1,13 @@
+# Configuration for (my) Creality Ender 5
+- Official BLTOUCH from Creality. ([Tutorial 3dwork](https://3dwork.io/en/configure-bltouch-in-marlin/))
+- SKR 1.3 [documentation](https://grobotronics.com/images/companies/1/datasheets/SKR%20V1.3-Instructions.pdf?1560762323008)([TeachingTech Ender5](https://www.youtube.com/watch?v=kTm-5Vo_ekk)), ([TeachingTech SKR1.3](https://www.youtube.com/watch?v=GNGN2iSQ5j4))
+- TMC 2208 UART ([TeachingTech TMC 2208](https://www.youtube.com/watch?v=7VHwcEroHPk)) 
+- [Activate 2208 UART Pin](https://www.youtube.com/watch?v=SyMNwmO5Nxo&t=285s)
+- Created from Configuration/Creality/Ender5/Creality but a [Repository from BigTreeTech](https://github.com/bigtreetech/BIGTREETECH-SKR-V1.3) exists [(Self Fork)](https://github.com/ViFork/BIGTREETECH-SKR-V1.3)
+- `TMC2208_standalone` is working, needs to add jumper to ms0,ms1 to not move two times too much [Jumper Position p18](https://github.com/bigtreetech/BIGTREETECH-SKR-V1.3/blob/master/BTT%20SKR%20V1.3/BIGTREETECH%20SKRV1.3%20guide%202019%20-%206.pdf)
+- [Playing with TMC2208 vref](https://wiki.fysetc.com/TMC2208/#calculator)
+- TFT35 V3.0 E3 [Configuration](https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware)
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
